@@ -1,0 +1,56 @@
+.student-sec h1{
+    margin-bottom: 4rem;
+    text-align: center ;
+}
+
+.students {
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.n2{
+    padding-left: 2rem;
+}
+
+.n1{
+    padding-right: 3rem;
+}
+
+.students img {
+    width: 10%;
+}
+
+.img0{
+    border: 1.8px solid;
+    border-radius: 50%;
+    padding: .5rem;
+
+    animation-name: img0;
+    animation-duration: 5s ;
+    animation-iteration-count: infinite;
+}
+
+@keyframes img0  {
+    10% {
+        border:3.5px double var(--color-danger);
+
+    }
+    
+}
+
+
+@media only screen and (max-width: 561px){
+
+    .students {
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    gap: .6rem;
+    }
+
+    .students img {
+        width: 12%;
+    }
+
+
+}

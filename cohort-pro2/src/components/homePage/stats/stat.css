@@ -1,0 +1,64 @@
+
+
+.stat-container{
+    justify-content: space-between;
+    background-image: linear-gradient(#424890,#2e3267);
+    border: 1px solid;
+    border-radius: .6rem;
+    height: 10rem;
+    width: 60%;
+    font-size: 14px;
+}
+
+.sc1{
+    gap: 3rem;
+}
+
+.sc1-img{
+    width: 55% ;
+    height: 4rem;
+    border: 1px solid;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: var(--color-white);
+}
+
+hr{
+    height: 100%;
+   border: 1px solid var(--color-primary);
+}
+
+
+
+@media only screen and (max-width: 561px){
+
+    .stat-section{
+        margin: 0 2rem;
+    }
+
+    .stat-container{
+        height: 10rem;
+        width: fit-content;
+        font-size: 12px;
+
+    }
+
+    .sc1{
+        gap: 1rem;
+    }
+
+    
+.sc1-img{
+    width: 45%;
+}
+    
+
+}
+
+
+@media only screen and (max-width: 767px){
+
+    .sc1{
+        gap: 1rem;
+    }
+}
